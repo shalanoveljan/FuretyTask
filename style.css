@@ -85,13 +85,13 @@
 
 
 }
-.cart img{
+.image img{
     width: 100%;
     margin-bottom: 10px;
 
 }
 
-.cart a{
+.content a{
     
     color:#000 ;
     text-decoration: none;
@@ -101,11 +101,11 @@
     font-size: 16px;
 }
 
-.cart a:hover{
+.content a:hover{
     color:#ff6900;
 }
 
-.cart p{
+.content p{
     color: #929292;
     font-weight: 400;
     font-size: 16px;
