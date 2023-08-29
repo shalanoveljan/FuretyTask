@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.menu a{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:#000;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.menu a:hover{
+    color: #ff6900;
+}
+
+.title{
+   width: 30%;
+   
+   
+}
+.title a img{
+    width: 100%;
+    height:30px ;
+    vertical-align: bottom;
+    object-fit: contain;
+    
+}
+
+.icons i{
+    cursor: pointer;
+    margin-left: 25px;
+    font-size: 20px;
+    transition:0.5s ;
+}
+
+.icons i:hover{
+    transform: translateY(-5px);
+    color: #ff6900;
+    
+}
+
+.header{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 50px;
+    
+
+}
+
+.carts{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 50px;
+    margin-top: -40px;
+
+
+}
+
+.header2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 50px;
+    
+
+}
+
+
+
+.cart{
+    
+    width: 24%;
+    vertical-align: bottom;
+    
+
+
+}
+.cart img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.cart a{
+    
+    color:#000 ;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.cart a:hover{
+    color:#ff6900;
+}
+
+.cart p{
+    color: #929292;
+    font-weight: 400;
+    font-size: 16px;
+    user-select: none;
+    margin-top: 8px;
+
+}
+
+.header2 .newtitle{
+    font-size: 30px;
+}
+
+.view a{
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.4s;
+    
+}
+
+.view:hover a{
+
+    color: #ff6900;
+}
+
